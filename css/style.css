@@ -335,7 +335,7 @@ hr {
   float: left;
   width: 33%;
   text-align: center;
-  padding: 1.5rem; }
+  padding: 1rem; }
 
 .leads-grid__title {
   margin-bottom: 0; }
@@ -386,7 +386,7 @@ hr {
 
 .team-grid__info {
   background-color: #fff;
-  padding: 1.5rem; }
+  padding: 1rem; }
   .team-grid__info a {
     font-weight: 300; }
 
@@ -491,7 +491,6 @@ hr {
   display: inline;
   float: left;
   padding: 1.5rem;
-  margin: .6rem;
   min-height: 300px;
   text-align: center; }
   .events-grid h4,
@@ -548,6 +547,9 @@ hr {
 .testimonio__cite {
   font-weight: bold;
   margin-bottom: 0; }
+
+.testimonio--resize {
+  width: 100%; }
 
 .hello-friend {
   background: url(../img/bg-footer.jpg) repeat-x;
@@ -629,7 +631,7 @@ hr {
 .sticky-menu-item {
   border: none;
   display: inline-block;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: center;
   width: 150px; }
 
@@ -737,10 +739,19 @@ hr {
 .certification-subscription {
   margin-top: 50px; }
 
+.certification-v2__subtitle {
+  font-size: 1.8rem;
+  text-transform: uppercase; }
+
 .certification-wrap-v2 {
-  width: 33.33%;
-  padding: 0.625rem;
-  float: left; }
+  width: 35%;
+  padding: 2rem;
+  float: left;
+  border-right: 1px solid #313233; }
+
+.certification-wrap-v2:last-child {
+  border: none;
+  width: 30%; }
 
 .site-header {
   margin-bottom: 1.5rem;
@@ -817,7 +828,7 @@ hr {
     width: 100%; }
 
 .section-wrap {
-  padding: 6rem 3rem; }
+  padding: 9rem 3rem; }
 
 .section-wrap--intro {
   position: relative;
